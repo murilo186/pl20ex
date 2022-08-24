@@ -1,0 +1,46 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+
+    <script lang="javascript">
+        var a, b, c;
+
+        a = parseFloat(window.prompt("digite o primeiro valor: ", "aqui vai o primeiro valor"));
+        b = parseFloat(window.prompt("digite o segundo valor: ", "aqui vai o segundo valor"));
+        c = parseFloat(window.prompt("digite o terceiro valor: ", "aqui vai o terceiro valor"));
+      
+
+
+        if(a > b && a>c)
+        {
+            (Math.pow((b+c) ,2)==(Math.pow(a,2)));
+            document.write("É um triângulo retângulo");
+        }
+        else if(b > a && b > c)
+        {
+            Math.pow((a+c) ,2)==(Math.pow(b,2));
+            document.write("É um triângulo retângulo");
+        }
+        else if (c > a &&c > b)
+        {
+            Math.pow((a+b) ,2) == (Math.pow(c,2));
+            document.write("É um triângulo retângulo");
+        }
+        else
+        {
+            document.write("Não é um triângulo retângulo");
+        }
+        
+
+        
+
+
+
+    </script>
+
+</body>
+</html>

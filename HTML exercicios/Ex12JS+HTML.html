@@ -1,0 +1,40 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+
+    <script lang="javascript">
+        var altura, peso, relação;
+
+        peso = parseFloat(window.prompt("digite o seu peso: ", "aqui vai o seu peso"));
+        altura = parseFloat(window.prompt("digite a sua altura: ", "aqui vai a sua altura"));
+        
+        relação = peso/(altura * altura) 
+
+        if(relação<20)
+        {
+            document.write("Abaixo do peso");
+        }
+        else if(relação>=20 || relação<25)
+        {
+            document.write("Peso ideal");
+        }
+        else if(relação>=25)
+        {
+            document.write("Acima do peso");
+        }
+
+
+        
+
+        
+
+
+
+    </script>
+
+</body>
+</html>
